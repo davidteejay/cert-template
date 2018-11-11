@@ -1,0 +1,206 @@
+.application--wrap {
+  min-height: fit-content !important;
+}
+
+.cert-cover {
+  padding: 20px;
+}
+.cert-cover .cert {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+.cert-cover .cert > img.bg {
+  width: 100%;
+  height: auto;
+}
+.cert-cover .cert > .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.cert-cover .cert.cert1 .content {
+  padding: 0 200px 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert1 .content {
+    padding: 0 50px;
+  }
+}
+.cert-cover .cert.cert1 .content > div {
+  width: 100%;
+  font-size: 30px;
+}
+@media screen and (max-width: 992px) {
+  .cert-cover .cert.cert1 .content > div {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert1 .content > div {
+    font-size: 10px;
+  }
+}
+.cert-cover .cert.cert1 .content > div h5 {
+  font-size: .8em;
+}
+.cert-cover .cert.cert1 .content > div h6 {
+  font-size: .6em;
+  font-weight: normal;
+  color: #555;
+}
+.cert-cover .cert.cert1 .content > div h2 {
+  font-size: 2em;
+  font-weight: 900;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert1 .content > div h2 {
+    margin: 10px 0px;
+    font-size: 1.3rem;
+  }
+}
+.cert-cover .cert.cert1 .content > div h4 {
+  font-size: 1em;
+  margin: 20px 0;
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert1 .content > div h4 {
+    margin: 5px 0px;
+  }
+}
+.cert-cover .cert.cert2 .content {
+  padding: 0 100px 0 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .cert-cover .cert.cert2 .content {
+    padding: 0 50px 0 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert2 .content {
+    padding: 0 50px 0 75px;
+  }
+}
+.cert-cover .cert.cert2 .content > div {
+  width: 100%;
+  font-size: 30px;
+}
+@media screen and (max-width: 992px) {
+  .cert-cover .cert.cert2 .content > div {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert2 .content > div {
+    font-size: 10px;
+  }
+}
+.cert-cover .cert.cert2 .content > div h5 {
+  font-size: .8em;
+}
+.cert-cover .cert.cert2 .content > div h6 {
+  font-size: .6em;
+  font-weight: normal;
+  color: #555;
+}
+.cert-cover .cert.cert2 .content > div h2 {
+  font-size: 2em;
+  font-weight: 900;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert2 .content > div h2 {
+    margin: 10px 0px;
+    font-size: 1.3rem;
+  }
+}
+.cert-cover .cert.cert2 .content > div h4 {
+  font-size: 1em;
+  margin: 20px 0;
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert2 .content > div h4 {
+    margin: 5px 0px;
+  }
+}
+.cert-cover .cert.cert3 .content {
+  padding: 0 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert3 .content {
+    padding: 0 50px;
+  }
+}
+.cert-cover .cert.cert3 .content > div {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .cert-cover .cert.cert3 .content > div {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert3 .content > div {
+    font-size: 10px;
+  }
+}
+.cert-cover .cert.cert3 .content > div h5 {
+  font-size: .8em;
+}
+.cert-cover .cert.cert3 .content > div h6 {
+  font-size: .6em;
+  font-weight: normal;
+  color: #555;
+}
+.cert-cover .cert.cert3 .content > div h2 {
+  font-size: 2em;
+  font-weight: 900;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1024px) {
+  .cert-cover .cert.cert3 .content > div h2 {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert3 .content > div h2 {
+    margin: 5px 0px;
+    font-size: 1.3rem;
+  }
+}
+.cert-cover .cert.cert3 .content > div h4 {
+  font-size: 1em;
+  margin: 20px 0;
+}
+@media screen and (max-width: 1024px) {
+  .cert-cover .cert.cert3 .content > div h4 {
+    margin: 10px 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cert-cover .cert.cert3 .content > div h4 {
+    margin: 3px 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

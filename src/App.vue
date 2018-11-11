@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <div class="cert-cover">
+      <Cert1/>
+    </div>  
+    <div class="cert-cover">
+      <Cert2/>
+    </div> 
+    <div class="cert-cover">
+      <Cert3/>
+    </div>    
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Cert1 from './components/Cert1'
+import Cert2 from './components/Cert2'
+import Cert3 from './components/Cert3'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    Cert1,
+    Cert2,
+    Cert3
+  },
+  data () {
+    return {
+      //
+    }
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="css">
+@import './assets/css/style.css';
 </style>
+
