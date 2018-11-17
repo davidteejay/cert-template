@@ -203,4 +203,77 @@
   }
 }
 
+.loader {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1000000100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.loader.active {
+  display: flex;
+}
+.loader .loader-content {
+  width: 100%;
+  text-align: center;
+}
+.loader .loader-content img {
+  height: 200px;
+  margin-top: -100px;
+}
+
+.error-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-container .bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 70%;
+  z-index: 10;
+  background-image: url("https://res.cloudinary.com/lukman/image/upload/v1533998020/avatar.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+.error-container .content {
+  z-index: 10;
+  width: 100%;
+  padding: 40px;
+}
+.error-container .content h1 {
+  font-size: 80px;
+  color: #84af6e;
+  text-transform: uppercase;
+}
+.error-container .content h2 {
+  font-weight: 300;
+  font-size: 32px;
+}
+.error-container .content p {
+  cursor: pointer;
+  margin: 0;
+  margin-top: 20px;
+  width: fit-content;
+  color: #77aa92;
+}
+.error-container .content p i, .error-container .content p span {
+  line-height: 26px;
+  font-size: 26px;
+  display: inline;
+}
+
 /*# sourceMappingURL=style.css.map */
